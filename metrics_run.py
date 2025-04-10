@@ -173,7 +173,7 @@ def main():
     with open(output_file, 'w') as f:
         f.write("=== Metrics Analysis Results ===\n")
     
-    for data_num in range(1, 9):
+    for data_num in range(1, 8):
         real_data_dir = base_dir / f"real_dataset_crops/crops_for_inference/data{data_num}"
         dehazed_dir = base_dir / f"results/data{data_num}"
         
